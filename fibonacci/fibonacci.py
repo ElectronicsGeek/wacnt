@@ -1,3 +1,6 @@
+# CAUTION:
+# This program runs really slowly!
+
 def fib(n):
 	"""Calculates the nth fibbonaci number. NOTE: Uses index counting"""
 	if n == 0:
@@ -23,4 +26,4 @@ while fib_count != 10:
 		
 	n += 1
 
-print "TOTAL = " + total
+print "TOTAL = " + str(total)
